@@ -1,0 +1,12 @@
+[project]
+name = "hw"
+version = "0.1.0"
+description = "Hw5"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.120.2",
+    "requests>=2.32.5",
+    "scikit-learn==1.6.1",
+    "uvicorn>=0.38.0",
+]
