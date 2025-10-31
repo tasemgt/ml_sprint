@@ -4,7 +4,7 @@ import uvicorn
 
 app = FastAPI(title="Lead Scoring Prediction API")
 
-with open('pipeline_v1.bin', 'rb') as f_in:
+with open('pipeline_v2.bin', 'rb') as f_in:
         pipeline = pickle.load(f_in)
 
 def predict_single(client):
